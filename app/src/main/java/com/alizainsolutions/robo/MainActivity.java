@@ -371,7 +371,7 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == PERMISSION_REQUEST_CODE) {
             if (grantResults.length > 0
                     && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(this, "Microphone permission granted", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Microphone permission granted!", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(this, "Microphone permission denied", Toast.LENGTH_SHORT).show();
             }
